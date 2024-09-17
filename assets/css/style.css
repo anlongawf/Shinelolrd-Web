@@ -133,6 +133,7 @@ a {
     padding-top:20vh;
 }
 #tagline {
+    padding-left: 150px;
     font-size:50px;
     width:60%;
 }
