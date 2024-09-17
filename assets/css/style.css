@@ -36,22 +36,22 @@ a {
 }
 /* Alert */
 .custom-alert {
-    display: none; /* Ban đầu ẩn */
-    position: fixed; /* Luôn hiển thị trên màn hình */
+    display: none; 
+    position: fixed; 
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);
-    background-color: #f44336; /* Màu nền */
-    color: white; /* Màu chữ */
+    background-color: #f44336; 
+    color: white; 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
-    z-index: 9999; /* Hiển thị phía trên các phần tử khác */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+    z-index: 9999;
     width: 300px;
     text-align: center;
 }
 
-/* Nút đóng thông báo */
+
 .custom-alert .closebtn {
     margin-left: 15px;
     color: white;
@@ -61,17 +61,17 @@ a {
     cursor: pointer;
 }
 
-/* Hiệu ứng hover cho nút đóng */
+
 .custom-alert .closebtn:hover {
     color: black;
 }
 
-/* Hiệu ứng xuất hiện mượt */
+
 .fade-in {
     animation: fadeIn 0.5s;
 }
 
-/* Keyframe cho hiệu ứng */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
