@@ -48,9 +48,24 @@ function closeNav() {
 function loginFail() {
   var alertBox = document.getElementById("customAlert");
   alertBox.style.display = "block";
-  alertBox.classList.add("fade-in");
-}
+  alertBox.classList.remove("fade-out");
+  
 
+  setTimeout(function() {
+      alertBox.classList.add("fade-out");
+      setTimeout(function() {
+          alertBox.style.display = "none";
+      }, 1000);
+  }, 1100); 
+}
+//  Close Alert
+function closeAlert() {
+  var alertBox = document.getElementById("customAlert");
+  alertBox.classList.add("fade-out");
+  setTimeout(function() {
+      alertBox.style.display = "none";
+  }, 1000); 
+}
 // Đóng thông báo
 function closeAlert() {
   var alertBox = document.getElementById("customAlert");
