@@ -133,7 +133,6 @@ a {
     padding-top:20vh;
 }
 #tagline {
-    padding-left: 150px;
     font-size:50px;
     width:60%;
 }
@@ -414,6 +413,9 @@ button:focus {
   @media only screen and (min-width: 600px) {
     .topnav {
       display: none;
+    }
+    #tagline {
+        padding-left: 150px;
     }
   }
 
